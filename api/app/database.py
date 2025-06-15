@@ -8,7 +8,7 @@ POSTGRES_DB = "tastybites_db"
 POSTGRES_HOST = "localhost"
 POSTGRES_PORT = "5435"
 
-SQLALCHEMY_DATABASE_URL = "postgresql://postgres:postgres@localhost:5435/tastybites_db"
+SQLALCHEMY_DATABASE_URL = "postgresql://tastybites_db_user:GlwsJuf1wFGabMtGrciWoYCku9SK0Qe3@dpg-d17kicruibrs73fqa5lg-a/tastybites_db"
 
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
 
